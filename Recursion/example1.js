@@ -3,7 +3,7 @@ function isVowel(char) {
 }
 
 function countVowel(str) {
-  if (str.length == 0) return 0;
+  if (str.length == 0) return 0; // Base condition for returning;
   var first = (isVowel(str[0]) ? 1 : 0);
   return first + countVowel( str.slice(1) );
 }
