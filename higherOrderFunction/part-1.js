@@ -58,3 +58,4 @@ function noDogs(animal) {
 
 var otherAnimals = animals.filter(noDogs);
 console.log(otherAnimals);
+/*filter returns a true or false value that derermine whether or not the item should be included*/
