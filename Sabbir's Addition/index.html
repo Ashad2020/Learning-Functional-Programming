@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Higher Order Function</title>
+</head>
+<body>
+    <h1>Higher Order Function</h1>
+    <p>It is noting but the outer function which have a inner function inside it's function body</p>
+    <p>Example</p>
+    <script>
+        function higherOrderFunction(){
+            const outer = [];
+            function callbackFunction(){
+                //your code here
+            }
+            return callbackFunction;
+        }
+        higherOrderFunction();
+        const newFunction = higherOrderFunction(2);
+    </script>
+</body>
+</html>
